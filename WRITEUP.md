@@ -29,3 +29,8 @@ GPS EKF update is also very simple by its simple partial derivatives and directl
 <img src="images/s5.gif" width="500"/>
 </p>
 
+# Step 6: Adding My Controller
+Luckly my controller directly works without further parameter tunning:
+<p align="center">
+<img src="images/s6.gif" width="500"/>
+</p>
