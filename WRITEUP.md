@@ -17,3 +17,8 @@ The extended Kalman filter prediction function `Predict()` depends on both the t
 <img src="images/s3.gif" width="500"/>
 </p>
 
+# Step 4: Magnetometer Update
+Since magnetometer measure is quite simple, its corresponding measurement matrix and derivative are also quite simple. I just plug the `hPrime` and `zFromX` values directly and get the following result with `QYawStd = 0.1`:
+<p align="center">
+<img src="images/s4.gif" width="500"/>
+</p>
