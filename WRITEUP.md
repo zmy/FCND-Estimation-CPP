@@ -22,3 +22,10 @@ Since magnetometer measure is quite simple, its corresponding measurement matrix
 <p align="center">
 <img src="images/s4.gif" width="500"/>
 </p>
+
+# Step 5: Closed Loop + GPS Update
+GPS EKF update is also very simple by its simple partial derivatives and directly represented states. Result:
+<p align="center">
+<img src="images/s5.gif" width="500"/>
+</p>
+
