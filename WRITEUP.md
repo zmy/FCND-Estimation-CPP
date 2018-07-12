@@ -10,3 +10,10 @@ By converting roll, pitch and yaw into quaternion and integrate body rate into t
 <p align="center">
 <img src="images/s2.gif" width="500"/>
 </p>
+
+# Step 3: Prediction Step
+The extended Kalman filter prediction function `Predict()` depends on both the transition function `PredictState()` and its Jacobian matrix which further depends on the `GetRbgPrime()` matrix. After implementing the matrices and state / covariance updates, I tune the `QPosXYStd` and the `QVelXYStd` to give following result:
+<p align="center">
+<img src="images/s3.gif" width="500"/>
+</p>
+
